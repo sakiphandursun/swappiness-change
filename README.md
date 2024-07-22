@@ -67,3 +67,26 @@ NAME      TYPE SIZE USED PRIO
 Mem:           7.8Gi       3.4Gi       274Mi       165Mi       4.1Gi       3.9Gi
 Swap:           11Gi       6.4Gi       5.6Gi
 ```
+
+
+
+
+
+
+1. **Servisi Yeniden Başlatma:**
+
+   ```bash
+   sudo systemctl restart zabbix-server
+   ```
+
+   Bu komut, Zabbix Server'ı durdurup tekrar başlatır.
+
+2. **Servis Durumunu Kontrol Etme:**
+
+   Servisin düzgün çalıştığını doğrulamak için aşağıdaki komutu kullanın:
+
+   ```bash
+   sudo systemctl status zabbix-server
+   ```
+
+   Çıktı, servisin aktif ve çalışır durumda olduğunu göstermelidir.
